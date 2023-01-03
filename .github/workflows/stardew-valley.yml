@@ -33,4 +33,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/Small-Ku/yolks:stardew-valley
+            ghcr.io/small-ku/yolks:stardew-valley
