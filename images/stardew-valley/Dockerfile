@@ -12,7 +12,7 @@ ENV USER=container HOME=/home/container
 
 RUN apt update && apt upgrade -y
 
-RUN apt install -y wget unzip tar strace mono-complete xterm gettext-base jq netcat procps dotnet-sdk-5.0
+RUN apt install -y wget unzip tar strace mono-complete xterm gettext-base jq netcat procps
 RUN APP_ICON_URL=https://stardewcommunitywiki.com/mediawiki/images/4/48/Fiddlehead_Fern.png && \
     install_app_icon.sh "$APP_ICON_URL"
 
